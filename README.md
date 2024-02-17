@@ -1,1 +1,1 @@
-# codewars-7kyu
+# Codewars JS
