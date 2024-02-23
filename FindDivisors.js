@@ -23,15 +23,3 @@ function divisors(integer) {
 
   return array.length == 0 ? `${integer} is prime` : array;
 }
-
-function isPrime(integer) {
-  for (let i = 2; i < integer; i++) {
-    if (integer % i == 0) {
-      return false;
-    }
-  }
-
-  return integer > 0;
-}
-
-console.log(divisors(13));
